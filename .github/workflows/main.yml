@@ -35,7 +35,7 @@ jobs:
       - name: Run tests
         run: |
           sleep 20
-          if nc -z localhost 3000; then
+          if nc -z localhost 4000; then
             echo "Server Running."
           else
             echo "Tests skipped because the server is not running."
